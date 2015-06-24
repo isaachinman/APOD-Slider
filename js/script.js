@@ -6,7 +6,6 @@ var monthNames = ["January", "February", "March", "April", "May", "June", "July"
 // SLIDE ARRAY
 window.imgIds = [];
 
-
 // GENERATE SLIDE FUNCTION
     function generateSlides() {
 
@@ -78,7 +77,7 @@ window.imgIds = [];
         }
     }
 
-    generateSlides();
+generateSlides();
 
 // SET UP SLIDER
 window.slider = $("#lightSlider").lightSlider({
@@ -105,4 +104,4 @@ window.slider = $("#lightSlider").lightSlider({
 
         },
 
-    });
+});

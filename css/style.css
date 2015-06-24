@@ -18,7 +18,6 @@ iframe {
     text-align: center;
 }
 
-
 /********************************
 ********* SLIDER CSS ************
 ********************************/
@@ -206,43 +205,6 @@ iframe {
     filter: alpha(opacity=0);
     overflow: hidden;
 }
-
-
-/* vertical */
-.lSSlideOuter.vertical {
-    position: relative;
-}
-.lSSlideOuter.vertical.noPager {
-    padding-right: 0px !important;
-}
-.lSSlideOuter.vertical .lSGallery {
-    position: absolute !important;
-    right: 0;
-    top: 0;
-}
-.lSSlideOuter.vertical .lightSlider > * {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-/* vertical controlls */
-.lSSlideOuter.vertical .lSAction > a {
-    left: 50%;
-    margin-left: -14px;
-    margin-top: 0;
-}
-.lSSlideOuter.vertical .lSAction > .lSNext {
-    background-position: 31px -31px;
-    bottom: 10px;
-    top: auto;
-}
-.lSSlideOuter.vertical .lSAction > .lSPrev {
-    background-position: 0 -31px;
-    bottom: auto;
-    top: 10px;
-}
-/* vertical */
-
 
 /* Rtl */
 .lSSlideOuter.lSrtl {
